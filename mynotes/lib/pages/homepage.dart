@@ -55,7 +55,7 @@ class _HomePageState extends State<HomePage> {
       //
       appBar: AppBar(
         title: Text(
-          "Notes",
+          "Daftar Catatan",
           style: TextStyle(
             fontSize: 32.0,
             fontFamily: "lato",

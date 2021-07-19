@@ -49,7 +49,7 @@ class _AddNoteState extends State<AddNote> {
                     ElevatedButton(
                       onPressed: add,
                       child: Text(
-                        "Save",
+                        "Simpan",
                         style: TextStyle(
                           fontSize: 18.0,
                           fontFamily: "lato",
@@ -80,7 +80,7 @@ class _AddNoteState extends State<AddNote> {
                     children: [
                       TextFormField(
                         decoration: InputDecoration.collapsed(
-                          hintText: "Title",
+                          hintText: "Judul",
                         ),
                         style: TextStyle(
                           fontSize: 32.0,
@@ -98,7 +98,7 @@ class _AddNoteState extends State<AddNote> {
                         padding: const EdgeInsets.only(top: 12.0),
                         child: TextFormField(
                           decoration: InputDecoration.collapsed(
-                            hintText: "Note Description",
+                            hintText: "Deskripsi catatan",
                           ),
                           style: TextStyle(
                             fontSize: 20.0,

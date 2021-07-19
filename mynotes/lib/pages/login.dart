@@ -31,7 +31,7 @@ class _LoginPageState extends State<LoginPage> {
                 vertical: 12.0,
               ),
               child: Text(
-                "Create and Manage your Notes",
+                "Buat dan Kelola Catatan Anda",
                 style: TextStyle(
                   fontSize: 36.0,
                   fontFamily: "lato",
@@ -52,7 +52,7 @@ class _LoginPageState extends State<LoginPage> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(
-                      "Continue With Google",
+                      "Login dengan Google",
                       style: TextStyle(
                         fontSize: 20.0,
                         fontFamily: "lato",
